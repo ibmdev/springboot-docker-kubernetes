@@ -31,6 +31,10 @@
 > docker start CONTAINER_NAME
 > docker stop CONTAINER_NAME
 
+# Delete Containers
+
+> docker rm CONTAINER_NAME
+
 # List of 3 networks containers 
 
 > docker network ls
