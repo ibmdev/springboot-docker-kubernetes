@@ -1,4 +1,4 @@
-package hello;
+package fr.sma.hello;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +14,7 @@ public class HelloController {
     @RequestMapping("/docker/helloworld")
     public @ResponseBody Data helloworld() {
         Data fluxRetour = new Data();
-        fluxRetour.setNameApplication("HE - SVC - Prototype1");
+        fluxRetour.setNameApplication("IN - SVC - Prototype1");
         return fluxRetour;
     }
     

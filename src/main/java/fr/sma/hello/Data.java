@@ -1,4 +1,4 @@
-package hello;
+package fr.sma.hello;
 
 /**
  * Created by a19160 on 15/10/2018.
